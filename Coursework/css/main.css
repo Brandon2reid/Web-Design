@@ -1,0 +1,54 @@
+body{
+    background-color: #FEFEBE;
+}
+
+header{
+    background-color: #FFFFFF ;
+}
+
+h1{
+    font-family:"Arial";
+    color: #000000
+}
+
+h2{
+    font-family:"Arial";
+    color: #000000
+}
+
+h3{
+    font-family:"Arial";
+    color: #000000
+}
+
+h4{
+    font-family:"Arial";
+    color: #000000
+}
+h5{
+    font-family:"Arial";
+    color: #000000
+}
+h6{
+    font-family:"Arial";
+    color: #000000
+}
+p{
+    font-family:"Arial";
+    color: #000000
+}
+
+main{
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+aside{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #DB92B8;
+    border-radius: 10px;
+}
