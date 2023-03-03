@@ -6,9 +6,16 @@ header{
     background-color: #FFFFFF ;
 }
 
+#logo{
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
 h1{
     font-family:"Arial";
-    color: #000000
+    color: #000000;
 }
 
 h2{
