@@ -4,6 +4,7 @@ body{
 
 header{
     background-color: #FFFFFF ;
+    padding: 10px;
 }
 
 #logo{
@@ -16,33 +17,41 @@ header{
 h1{
     font-family:"Arial";
     color: #000000;
+    display: inline; 
+    padding: 10 px;
 }
 
 h2{
     font-family:"Arial";
-    color: #000000
+    color: #000000;
+    padding: 10 px;
 }
 
 h3{
     font-family:"Arial";
-    color: #000000
+    color: #000000;
+    padding: 10 px;
 }
 
 h4{
     font-family:"Arial";
-    color: #000000
+    color: #000000;
+    padding: 10 px;
 }
 h5{
     font-family:"Arial";
-    color: #000000
+    color: #000000;
+    padding: 10 px;
 }
 h6{
     font-family:"Arial";
-    color: #000000
+    color: #000000;
+    padding: 10 px;
 }
 p{
     font-family:"Arial";
-    color: #000000
+    color: #000000;
+    padding: 10 px;
 }
 
 main{
@@ -58,39 +67,51 @@ aside{
 footer{
     background-color: #DB92B8;
     border-radius: 10px;
+    padding: 10 px;
 }
 
 nav li{
     border: 2px solid white;
     background-color:#ece75f;
     list-style-type: none;
+    float: left;
+    width: 15%;
+    padding: 16px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 nav li a{
-color: #000000;
-text-align: center;
+color: white;
 text-decoration: none;
 }
 
 nav li:hover{
-    background-color: #DB92B8;
+    background-color: black;
 }
 
 .active{
-    background-color: aquamarine;
+    background-color: rgb(41, 196, 144);
 }
 
 table{
     font-family:"Arial";
     border-collapse: collapse;
+    padding: 10 px;
 }
 
 table td{
     border: 2px solid #f0f0f0;
+    padding: 10 px;
 }
 
 table th{
     border: 2px solid #f0f0f0;
+    padding: 10 px;
 }
 
 Table tr:nth-child(even){
