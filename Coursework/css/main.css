@@ -1,0 +1,177 @@
+body{
+    background-color: #00008B;
+}
+
+header{
+    background-color: #ece75f ;
+    padding: 10px;
+    
+}
+
+#logo{
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
+.container{
+    text-align: center;
+}
+
+h1{
+    font-family:"Arial";
+    color: #000000;
+    display: inline; 
+    padding: 10 px;
+}
+
+h2{
+    font-family:"Arial";
+    color: #000000;
+    padding: 10 px;
+    text-align: center;
+}
+
+h3{
+    font-family:"Arial";
+    color: #000000;
+    padding: 10 px;
+}
+
+h4{
+    font-family:"Arial";
+    color: #000000;
+    padding: 10 px;
+}
+h5{
+    font-family:"Arial";
+    color: #000000;
+    padding: 10 px;
+}
+h6{
+    font-family:"Arial";
+    color: #000000;
+    padding: 10 px;
+}
+
+p{
+    font-family:"Arial";
+    color: #000000;
+    padding: 10 px;
+}
+
+main{
+    background: #ece75f;
+    border-radius: 10px;
+}
+
+aside{
+    background-color: #ece75f;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.twitter-timeline{
+    text-align: center;
+}
+
+footer{
+    background-color: #DB92B8;
+    border-radius: 10px;
+    padding: 10 px;
+}
+
+nav {
+    background-color:#ece75f;
+
+}
+
+nav li{
+    border: 2px solid white;
+    background-color:#ece75f;
+    list-style-type: none;
+    float: left;
+    width: 14%;
+    padding: 16px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#ece75f;
+
+}
+
+nav li a{
+color: white;
+text-align: center;
+text-decoration: none;
+}
+
+nav li:hover{
+    background-color: black;
+}
+
+.active{
+    background-color: rgb(41, 196, 144);
+}
+
+table{
+    font-family:"Arial";
+    border-collapse: collapse;
+    padding: 10 px;
+}
+
+table td{
+    border: 2px solid #f0f0f0;
+    padding: 10 px;
+}
+
+table th{
+    border: 2px solid #f0f0f0;
+    padding: 10 px;
+}
+
+Table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+Table tr:hover{
+    background-color: #f0f0f0;
+}
+
+Table th{
+    background-color: #00008B;
+    color: white;
+}
+
+div .carousel-item{
+    width: 100%;
+    
+}
+
+.gallery-img{
+    width: 100%;
+}
+
+#img-gallery{
+    padding-top: 10px;
+}
+
+#img-gallery .row{
+    margin-bottom: 10px;
+}
+
+.wrapper{
+    position: relative;
+    padding-bottom: 56.25%;
+    display: inline-block ;
+}
+
+.wrapper iframe{
+    
+    position: absolute;
+    display: inline-block;
+}
