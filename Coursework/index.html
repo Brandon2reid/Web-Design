@@ -1,6 +1,6 @@
 <html>
     <head>
-
+        <!--the tile of the webpage-->
         <title>The Dueling Society</title>
         <meta name = "viewport" content= "width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="css/main.css"> 
@@ -11,22 +11,21 @@
     </head>
 
     <body>
-        <header>
+        <header> <!--Logo and Main Head of webpage-->
             <img id="logo" src="images/logo.png" alt="icon"/>
             <h1>The Dueling Society</h1> 
 
             <form>
-                <label for="mail">Email:</label>
-                <input type="text" email="email" value=""/>
-
-                <label for="password">Password:</label>
-                <input type="text" password="password" value=""/>
-
-                
-            </form>
+                <!--Login form for website-->
+                <fieldset id="Logging">
+                <input type="text" name="mail" placeholder="Email">
+                <input type="text" name="Password" placeholder="Password">
+                <button type="button" onclick="alert('You have been logged in!')">Login</button>
+                </fieldset>
+                </form>
         </header>
 
-        <nav> 
+        <nav> <!--Navigation bar for website-->
             <ul>
                 <li class="active"><a href="index.html">Home</a></li>
                 <li class="active"><a href="img_gallery.html">Gallery</a></li>
@@ -40,7 +39,7 @@
         </nav>
 
         <main> 
-
+                <!--allows user to scroll through images-->
             <div id="home-carousel" class="carousel slide" data-bs-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-bs-target="#home-carousel" data-bs-slide-to="0" class="active"></li>
@@ -80,7 +79,7 @@
             </div>
 
                 
-            <div>
+            <div> <!--Explains the society to any newcomers/visitors-->
                 <h3>Welcome to the Dueling Society</h3>
                 <p> The Dueling Society is an unofficial society of RGU which focuses on challenging eachother to Yu-Gi-Oh duel monster battles. Whether you are doing official battles
                     or just wanting to show off your cards, and even maybe do some trades and create new decks with the help of your fellow members you can! If this sounds like
@@ -93,9 +92,11 @@
             </div>
         </main>
 
-        <aside> 
+        <aside> <!--Links to the main yugioh page for latest news-->
             <h3>Latest News</h3>
+            <div style="display: flex; justify-content: center;">
             <a class="twitter-timeline" data-width="350" data-height="500" data-theme="dark" href="https://twitter.com/YuGiOh_TCG?ref_src=twsrc%5Etfw">Tweets by YuGiOh_TCG</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
         </aside>
 
         <footer> 

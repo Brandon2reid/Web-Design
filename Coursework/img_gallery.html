@@ -29,8 +29,9 @@
             </ul>
         </nav>
 
-        <main> 
+        <main> <!--Group of images in rows and columns-->
             <div id="img-gallery" class="container">
+                <div id="wrap">
                 <div class="row">
                     <div id="img-gallery1" class="col-lg">
                         <img src="images/Main_characters.jpg" class="gallery-img img-fluid"/>
@@ -59,8 +60,9 @@
                         <img src="images/tornament_match.jpg" class="gallery-img img-fluid"/>
                     </div>
                 </div>
+                </div>
             </div>
-
+            <!--Allows the user to hover over an image and blur others that weren't hovered over.-->
             <script>
                 document.getElementById("img-gallery1").addEventListener("mouseover", highlight);
                 document.getElementById("img-gallery1").addEventListener("mouseout", delight);

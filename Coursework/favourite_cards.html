@@ -27,41 +27,24 @@
         </nav>
     
         <main> 
-            <div>
-                <div>
-                    <div>
-                        <img src="images/Dark_Magician.jpg"/>
-                    </div>
-                    <div>
-                        <img src="images/BEWD.jpg"/>
-                    </div>
-                    <div>
-                        <img src="images/Horakhty.jpg"/>
-                    </div>
-                    <div>
-                        <img src="images/Utopia.jpg"/>
-                    </div>
-                    <div>
-                        <img src="images/Aqua.jpeg"/>
-                    </div>
-                    <div>
-                        <img src="images/Kuriboh.jpg"/>
-                    </div>
-                    <div>
-                        <img src="images/Tyler.jpg"/>
-                    </div>
-                    <div>
-                        <img src="images/Cylinder.jpg"/>
-                    </div>
-                    <div>
-                        <img src="images/Polymerization.png"/>
-                    </div>
-                    <div>
-                        <img src="images/Blazeman.jpg"/>
-                    </div>
-                </div>
+            <div><!--Allows the user to pick a number to change between favourite cards of the society-->
+                <img height="800px" id="bannerImage" src="images/Dark_Magician.jpg"></br>
+                <button onclick="changeImage('Dark_Magician.jpg')">1</button>
+                <button onclick="changeImage('images/Horakhty.jpg')">2</button>
+                <button onclick="changeImage('images/Utopia.jpg')">3</button>
+                <button onclick="changeImage('images/Aqua.jpeg')">4</button>
+                <button onclick="changeImage('images/Kuriboh.jpg')">5</button>
+                <button onclick="changeImage('images/Tyler.jpg')">6</button>
+                <button onclick="changeImage('images/Cylinder.jpg')">7</button>
+                <button onclick="changeImage('images/Polymerization.png')">8</button>
+                <button onclick="changeImage('images/Blazeman.jpg')">9</button>
             </div>
-    
+            <script>
+                function changeImage(fileName) {
+                    let img = document.querySelector("#bannerImage");
+                    img.setAttribute("src", fileName)
+                }
+            </script>
     </body>
 
 
